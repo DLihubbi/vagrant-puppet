@@ -1,3 +1,4 @@
 # Vagrant-Puppet
 
-The result of me playing around with Vagrant and Puppet.
+This will become our default testing environment, we are working to finish all modules, stay tune.
+
