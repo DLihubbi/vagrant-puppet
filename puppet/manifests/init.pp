@@ -13,3 +13,5 @@ file { '/var/www/':
 include nginx, php, mysql
 include motd
 include openssh
+include java
+include tomcat

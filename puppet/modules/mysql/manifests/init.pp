@@ -1,6 +1,6 @@
 class mysql {
 
-	package { ['mysql-server']:
+	package { ['mysql-server','mysql-client']:
     ensure => present,
 	  require => Exec['apt-get update'],
   }
