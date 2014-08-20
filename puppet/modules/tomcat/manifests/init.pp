@@ -21,6 +21,6 @@ class tomcat {
     path => '/etc/tomcat6/tomcat-users.xml',
     require => Package['tomcat6'],
     notify => Service['tomcat6'],
-    content => template('/vagrant/puppet/modules/tomcat/templates/tomcat-users.xml.erb')
+    content => template('/home/vagrant/puppet/modules/tomcat/templates/tomcat-users.xml.erb')
   }
 }
