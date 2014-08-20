@@ -1,0 +1,1 @@
+sudo puppet apply /home/vagrant/puppet/manifests/init.pp --modulepath /home/vagrant/puppet/modules/
